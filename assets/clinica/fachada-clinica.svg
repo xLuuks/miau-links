@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder da fachada da clinica</title>
+  <desc id="desc">Imagem provisoria para substituir pela foto real da fachada da MiAu Clinica Veterinaria.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f6f52"/>
+      <stop offset="100%" stop-color="#9be15d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="40" fill="url(#bg)"/>
+  <g fill="#ffffff" opacity="0.12">
+    <circle cx="160" cy="120" r="52"/>
+    <circle cx="1040" cy="180" r="44"/>
+    <circle cx="980" cy="730" r="70"/>
+  </g>
+  <rect x="180" y="220" width="840" height="470" rx="28" fill="#fffdf7"/>
+  <rect x="240" y="280" width="720" height="350" rx="20" fill="#dff5e6"/>
+  <rect x="340" y="150" width="520" height="100" rx="18" fill="#174b3e"/>
+  <text x="600" y="214" fill="#ffffff" font-family="Arial, sans-serif" font-size="48" font-weight="700" text-anchor="middle">MI&amp;AU CLINICA VETERINARIA</text>
+  <rect x="290" y="330" width="170" height="220" rx="18" fill="#ffffff"/>
+  <rect x="515" y="330" width="170" height="220" rx="18" fill="#ffffff"/>
+  <rect x="740" y="330" width="170" height="220" rx="18" fill="#ffffff"/>
+  <rect x="520" y="540" width="160" height="150" rx="18" fill="#174b3e"/>
+  <text x="600" y="766" fill="#ffffff" font-family="Arial, sans-serif" font-size="54" font-weight="700" text-anchor="middle">FACHADA DA CLINICA</text>
+  <text x="600" y="812" fill="#e8fff2" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">Substitua este arquivo pela foto externa real</text>
+</svg>

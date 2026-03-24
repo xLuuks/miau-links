@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 880" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder Dra Barbara Dutra</title>
+  <desc id="desc">Imagem provisoria para foto da Dra Barbara Dutra.</desc>
+  <rect width="800" height="880" rx="36" fill="#e7f7ea"/>
+  <rect x="36" y="36" width="728" height="808" rx="32" fill="#ffffff"/>
+  <circle cx="400" cy="275" r="118" fill="#0f6f52" opacity="0.14"/>
+  <circle cx="400" cy="268" r="88" fill="#f0c6a8"/>
+  <path d="M284 470c18-92 68-132 116-132s98 40 116 132v140H284V470z" fill="#ffffff"/>
+  <rect x="126" y="648" width="548" height="114" rx="24" fill="#0f6f52"/>
+  <text x="400" y="710" fill="#ffffff" font-family="Arial, sans-serif" font-size="46" font-weight="700" text-anchor="middle">DRA BARBARA DUTRA</text>
+  <text x="400" y="786" fill="#587067" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Substitua pela foto oficial da equipe</text>
+</svg>

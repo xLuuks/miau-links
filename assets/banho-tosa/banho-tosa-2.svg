@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 980" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder banho e tosa 2</title>
+  <desc id="desc">Arte provisoria de antes e depois do banho e tosa em uma unica imagem.</desc>
+  <rect width="800" height="980" rx="34" fill="#f3f3ee"/>
+  <rect x="0" y="720" width="800" height="260" fill="#c8ff2b"/>
+  <text x="220" y="150" fill="#0f6f52" font-family="Arial, sans-serif" font-size="60" font-weight="800" text-anchor="middle">ANTES</text>
+  <text x="580" y="150" fill="#0f6f52" font-family="Arial, sans-serif" font-size="60" font-weight="800" text-anchor="middle">DEPOIS</text>
+  <rect x="42" y="200" width="320" height="500" rx="28" fill="#ffffff" stroke="#a7e21f" stroke-width="10"/>
+  <rect x="438" y="200" width="320" height="500" rx="28" fill="#ffffff" stroke="#a7e21f" stroke-width="10"/>
+  <ellipse cx="202" cy="470" rx="104" ry="150" fill="#aa8768"/>
+  <ellipse cx="598" cy="470" rx="104" ry="150" fill="#f1e0c3"/>
+  <rect x="238" y="790" width="324" height="108" rx="24" fill="#0f6f52"/>
+  <text x="400" y="858" fill="#ffffff" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">ANTES E DEPOIS</text>
+</svg>

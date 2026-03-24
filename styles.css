@@ -857,6 +857,14 @@ a {
   font-weight: 700;
 }
 
+.site-credit {
+  margin: 10px 0 0;
+  text-align: center;
+  color: rgba(25, 53, 45, 0.58);
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
 .hero-photo,
 .grooming-card,
 .team-card__photo,

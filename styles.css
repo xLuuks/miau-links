@@ -117,6 +117,13 @@ a {
   text-decoration: none;
 }
 
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline: 3px solid rgba(213, 251, 123, 0.95);
+  outline-offset: 4px;
+}
+
 .page-shell {
   position: relative;
   z-index: 1;
@@ -253,9 +260,9 @@ a {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 0.96fr) minmax(420px, 1.04fr);
+  grid-template-columns: minmax(0, 0.88fr) minmax(500px, 1.12fr);
   align-items: center;
-  gap: 40px;
+  gap: 34px;
   margin-top: 24px;
   padding: 46px;
   border-radius: var(--radius-xl);
@@ -335,7 +342,7 @@ a {
 .hero-photo {
   position: relative;
   margin: 0;
-  width: min(100%, 540px);
+  width: min(100%, 660px);
   margin-left: auto;
   border-radius: 28px;
   background: rgba(255, 255, 255, 0.12);
@@ -344,7 +351,7 @@ a {
 .hero-photo img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: clamp(264px, 29vw, 360px);
   object-fit: cover;
   object-position: center;
 }
@@ -547,6 +554,10 @@ a {
   border-radius: var(--radius-lg);
   background: rgba(255, 255, 255, 0.88);
   box-shadow: var(--shadow);
+}
+
+.grooming-card[aria-hidden="true"] {
+  pointer-events: none;
 }
 
 .grooming-card img {
@@ -1055,6 +1066,10 @@ body.lightbox-open {
     width: min(100%, 560px);
   }
 
+  .hero-photo img {
+    height: clamp(252px, 34vw, 336px);
+  }
+
   .team-grid,
   .team-grid--support {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1069,6 +1084,10 @@ body.lightbox-open {
 @media (max-width: 780px) {
   html {
     font-size: 15px;
+  }
+
+  body {
+    background-attachment: scroll;
   }
 
   .page-shell {
@@ -1171,6 +1190,10 @@ body.lightbox-open {
   .hero-photo {
     width: 100%;
     border-radius: 22px;
+  }
+
+  .hero-photo img {
+    height: clamp(216px, 58vw, 312px);
   }
 
   .hero-photo figcaption {
@@ -1316,5 +1339,25 @@ body.lightbox-open {
   .floating-whatsapp::before {
     width: 36px;
     height: 36px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .grooming-track {
+    animation: none;
+    transform: none;
+  }
+
+  body {
+    background-attachment: scroll;
   }
 }
